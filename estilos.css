@@ -1,0 +1,167 @@
+* {
+    font-size: 'Sen' sans-serif;
+    font-weight: 100;
+}
+header {
+    background: rgba(red, green, blue, alpha);
+  
+    width: 100%;
+    position: sticky;
+    z-index: 100%;
+     
+}
+
+.nav__responsive-ul {
+    
+    display: none;
+     
+}
+
+.nav {
+
+    display: inline-block;
+    line-height: 0%;
+    position: fixed;
+    width: 100%;
+    background-color:darkblue;
+    margin-top: auto;
+    text-align: center;
+    
+}
+
+.nav__li {
+    
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+}
+
+.nav__li:hover > a {
+    color: #ccc;
+}
+.nav__li:hover {
+    color: #ccc;
+}
+
+.nav__li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__li i {
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+
+}
+
+.nav__responsive-buttom {
+    float: right;
+    font-size: 40;
+    padding: 6px 20px;
+}
+
+
+@media only screen and (max-width: 530px) {
+    .nav__ul {
+        display: none;
+    }
+    .nav__responsive-ul {
+        display: block;
+        
+    }
+    .nav {
+        height: 50px;
+        width: 100%;
+    }
+}
+/*
+.home_inicio {
+    /* Ubicar la imgen */
+
+ /*   background-image: url(media/fondo2a.jpg);
+
+    background-position-y: top;
+
+
+    /* Centrar imagen de fondo */
+
+ /*   background-position: center center;
+
+    /* Para repetir imagen*/
+
+/*    background-repeat: no-repeat;
+
+    /* La imegen se fija en la ventane de visualizacón */
+
+/*    background-attachment: fixed;
+
+    /* La magen de fondo se reescala automaticamente*/
+
+/*    background-size: cover;
+
+    /* Opasidad en la imagen */
+
+/*}*/
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+  }
+  
+  .slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+body {
+
+    margin: 0;
+    padding: 0;
+    height: 2000px; /* Para que la página sea lo suficientemente larga */
+    background-image: url('media/fondo2a.jpg'); /* Imagen de fondo */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(251, 249, 248);
+}
+
+
+.parallax {
+
+    height: 800px;
+    background-image: url('media/fondo.jpg'); /* Segunda imagen */
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax .content {
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.content {
+
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+
+}
+#myHeader {
+    background-color: lightblue;
+    color: red;
+    padding: 40px;
+    text-align: center;
+  } 
